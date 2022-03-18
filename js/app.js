@@ -1,5 +1,6 @@
 const colorArr = ["red", "#f15025", "green", "rgba(133, 122, 200)"];
 
+
 const resDply = document.querySelector(' .result');
 const btn = document.querySelector('button');
 const selBdy = document.querySelector('body')
