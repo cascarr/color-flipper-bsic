@@ -1,0 +1,46 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  background: #fff;
+  padding: 2em 0;
+}
+
+.container {
+  width: 80%;
+  max-width: 11200px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-list {
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+  /* justify-content: space-between; */
+
+  display: flex;
+}
+
+.nv-secondary {
+  justify-content: space-between;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+li + li {
+  margin-left: 1em;
+}
